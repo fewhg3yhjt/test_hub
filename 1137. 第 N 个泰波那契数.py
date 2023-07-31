@@ -8,3 +8,4 @@ class Solution:
         for i in range(3,n+1):
             T[i]=T[i-3]+T[i-2]+T[i-1]
         return  T[n]
+        #test
